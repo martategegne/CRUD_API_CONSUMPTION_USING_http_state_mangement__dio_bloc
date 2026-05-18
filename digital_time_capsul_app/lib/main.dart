@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 🔥 Dependency setup
+    // Dependency setup
     final repository = PostRepository(ApiService());
 
     return BlocProvider(
